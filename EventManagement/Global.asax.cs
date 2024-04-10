@@ -68,5 +68,7 @@ namespace EventManagement
             Response.Headers.Remove("Server");
             Response.AddHeader("X-Frame-Options", "DENY");
         }
+
+
     }
 }
