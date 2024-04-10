@@ -3,6 +3,7 @@ using LIBRARY;
 using MODELS.MODELS;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -41,6 +42,7 @@ namespace EventManagement.Controllers
         [Route("ActivityInfo/GetActivityByEventId")]
         public HttpResponseMessage GetActivityByEventId(ACTIVITYINFO activityInfo)
         {
+            
             SerializeResponse<ACTIVITYINFO> response = new SerializeResponse<ACTIVITYINFO>();
             if (activityInfo != null)
             {
@@ -49,6 +51,7 @@ namespace EventManagement.Controllers
             }
             return this.Request.CreateResponse(HttpStatusCode.OK, response);
         }
+       
 
     }
 }

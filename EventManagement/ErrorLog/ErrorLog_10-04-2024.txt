@@ -1,0 +1,428 @@
+------------------------------------------4/10/2024 11:50:59 AM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 11:51:54 AM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 12:44:07 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 12:44:07 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 12:44:07 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 12:44:55 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 1:03:29 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 1:29:00 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 1:31:51 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 1:32:06 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 1:43:51 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 1:49:04 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 2:00:13 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 2:25:36 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:09:07 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:09:08 PM------------------------------------------
+System.IO.IOException: The process cannot access the file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\ErrorLog\ErrorLog_10-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in D:\Jay_Patel\Week10\EventManagement\LIBRARY\Library\InsertLog.cs:line 28==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in D:\Jay_Patel\Week10\EventManagement\LIBRARY\Library\InsertLog.cs:line 28
+------------------------------------------4/10/2024 3:09:09 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:09:24 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:09:34 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:12:13 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:12:27 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:12:31 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:17:39 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:18:13 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:18:25 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:18:43 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:19:18 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:19:51 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:19:55 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:20:38 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:21:50 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:21:54 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:22:08 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:22:33 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:22:59 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:26:49 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:27:14 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:28:14 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:28:28 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:29:06 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:29:11 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:29:34 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:30:01 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:30:40 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:31:44 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:32:47 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:35:31 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:35:52 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:36:52 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:38:43 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:38:47 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:41:17 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:43:25 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:43:33 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:43:46 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:43:49 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 3:57:27 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:03:52 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:06:00 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:06:04 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:18:02 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:20:07 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:26:37 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:28:35 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:30:02 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:30:54 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:31:29 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:32:26 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:32:28 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:32:37 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:32:40 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:33:23 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:47:07 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:49:48 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:50:09 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:50:21 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 4:50:30 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:01:14 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:01:25 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:10:00 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:11:00 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:14:21 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:14:32 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:14:38 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:16:16 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:17:03 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:18:04 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:28:00 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:28:00 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:28:10 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:28:12 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:36:06 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:36:06 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:36:15 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:36:18 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:36:18 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:37:01 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:37:01 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:37:18 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:37:20 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:37:20 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:39:42 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:39:42 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:40:03 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:40:03 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:40:16 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:40:16 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:40:33 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:40:33 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:45:58 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:46:18 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:46:33 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:58:11 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:58:13 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 5:58:31 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:59:53 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 5:59:54 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\Images\EventImages\asdasdad_638483527070077233.jpg'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 95
+------------------------------------------4/10/2024 6:00:31 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:02:11 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\Images\EventImages\asdasdad_638483527070077233.jpg'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 95
+------------------------------------------4/10/2024 6:05:40 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:06:04 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:06:04 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:06:12 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:06:12 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:06:12 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\Images\EventImages\event3_638483691396284149.jpg'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 95
+------------------------------------------4/10/2024 6:06:13 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\Images\EventImages\event3_638483691396284149.jpg'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 95
+------------------------------------------4/10/2024 6:06:30 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:06:31 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:06:55 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:06:55 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\Images\EventImages\event3_638483691396284149.jpg'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 95
+------------------------------------------4/10/2024 6:07:26 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:07:26 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\Images\EventImages\event3_638483691396284149.jpg'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 95
+------------------------------------------4/10/2024 6:07:45 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:09:25 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\Images\EventImages\event3_638483691396284149.jpg'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 95
+------------------------------------------4/10/2024 6:09:36 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:09:37 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:12:43 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:16:54 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:19:42 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:22:56 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:23:24 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:23:24 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:24:33 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:25:04 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:25:05 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:37:25 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:37:27 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:38:16 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:38:16 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:40:09 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:40:09 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:42:08 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:42:09 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:42:19 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:42:19 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:43:08 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:43:08 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:43:57 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:43:57 PM------------------------------------------
+System.IO.IOException: The process cannot access the file 'D:\Jay_Patel\Week10\EventManagement\EventManagement\ErrorLog\ErrorLog_10-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in D:\Jay_Patel\Week10\EventManagement\LIBRARY\Library\InsertLog.cs:line 28==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in D:\Jay_Patel\Week10\EventManagement\LIBRARY\Library\InsertLog.cs:line 28
+------------------------------------------4/10/2024 6:44:05 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:44:05 PM------------------------------------------
+UserserviceBL=>UserOpration=>ExceptionCould not find file 'C:\Program Files\IIS Express\path1'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at BL.EventServices.EventInfoService.EventInfoOpration(EVENTINFO objEntity) in D:\Jay_Patel\Week10\EventManagement\BL\EventServices\EventInfoService.cs:line 75
+------------------------------------------4/10/2024 6:44:13 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:44:13 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:44:44 PM------------------------------------------
+UserService=>UserOpration=>Started
+------------------------------------------4/10/2024 6:44:44 PM------------------------------------------
+UserService=>UserOpration=>Started

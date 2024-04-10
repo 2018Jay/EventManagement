@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
 using System.Text;
+using static System.Net.Mime.MediaTypeNames;
+using System.IO;
 
 namespace BL.EventServices
 {
@@ -69,6 +71,11 @@ namespace BL.EventServices
                 else if (objEntity.Flag == "GETALL" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0 && ds.Tables[0].Columns.Count != 2)
                 {
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EVENTINFO>(ds.Tables[0]);
+                    foreach(EVENTINFO e  in objSerializeResponse.ArrayOfResponse ){
+                        byte[] imageArray = System.IO.File.ReadAllBytes(e.EventImgPath);
+                        string base64ImageRepresentation = Convert.ToBase64String(imageArray);
+                        e.EventImgPath=base64ImageRepresentation;
+                    }
                     objSerializeResponse.Message = "200|Data Found";
                 }
                 else if (objEntity.Flag == "GETALL" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0 && ds.Tables[0].Columns.Count == 2)
@@ -77,6 +84,26 @@ namespace BL.EventServices
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["ResponseMessage"]);
                 }
                 else if (objEntity.Flag == "GETALL" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count == 0)
+                {
+                    objSerializeResponse.Message = "400|No Data Found";
+                }
+                else if (objEntity.Flag == "GETEVENTBYID" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0 && ds.Tables[0].Columns.Count != 2)
+                {
+                    objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EVENTINFO>(ds.Tables[0]);
+                    foreach (EVENTINFO e in objSerializeResponse.ArrayOfResponse)
+                    {
+                        byte[] imageArray = System.IO.File.ReadAllBytes(e.EventImgPath);
+                        string base64ImageRepresentation = Convert.ToBase64String(imageArray);
+                        e.EventImgPath = base64ImageRepresentation;
+                    }
+                    objSerializeResponse.Message = "200|Data Found";
+                }
+                else if (objEntity.Flag == "GETEVENTBYID" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0 && ds.Tables[0].Columns.Count == 2)
+                {
+                    objSerializeResponse.ID = Convert.ToInt16(ds.Tables[0].Rows[0]["StatusCode"]);
+                    objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["ResponseMessage"]);
+                }
+                else if (objEntity.Flag == "GETEVENTBYID" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count == 0)
                 {
                     objSerializeResponse.Message = "400|No Data Found";
                 }
