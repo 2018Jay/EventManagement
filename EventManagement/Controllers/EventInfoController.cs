@@ -25,6 +25,7 @@ namespace EventManagement.Controllers
             {
                 try
                 {
+                    eventInfo.Publish = false;
                     string path = AppDomain.CurrentDomain.BaseDirectory + "Images\\EventImages\\"+ eventInfo.EventName+"_"+ DateTime.Now.Ticks + ".jpg";
 
 
@@ -69,6 +70,36 @@ namespace EventManagement.Controllers
         public HttpResponseMessage GetEventById(EVENTINFO eventInfo)
         {
            
+            SerializeResponse<EVENTINFO> response = new SerializeResponse<EVENTINFO>();
+            if (eventInfo != null)
+            {
+                EventInfoService eventInfoService = new EventInfoService();
+                response = eventInfoService.EventInfoOpration(eventInfo);
+
+            }
+            return this.Request.CreateResponse(HttpStatusCode.OK, response);
+        }
+
+        [HttpPost]
+        [Route("EventInfo/GetNotPublishEvents")]
+        public HttpResponseMessage GetNotPublishEvents(EVENTINFO eventInfo)
+        {
+
+            SerializeResponse<EVENTINFO> response = new SerializeResponse<EVENTINFO>();
+            if (eventInfo != null)
+            {
+                EventInfoService eventInfoService = new EventInfoService();
+                response = eventInfoService.EventInfoOpration(eventInfo);
+
+            }
+            return this.Request.CreateResponse(HttpStatusCode.OK, response);
+        }
+
+        [HttpPost]
+        [Route("EventInfo/UpdateEventByEventId")]
+        public HttpResponseMessage UpdateEventByEventId(EVENTINFO eventInfo)
+        {
+
             SerializeResponse<EVENTINFO> response = new SerializeResponse<EVENTINFO>();
             if (eventInfo != null)
             {

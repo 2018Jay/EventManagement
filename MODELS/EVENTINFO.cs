@@ -18,5 +18,6 @@ namespace MODELS.MODELS
         public DateTime CreatedDateTime { get; set; }
         public DateTime UpdatedDateTime { get; set; }
         public long AdminId { get; set; }
+        public bool Publish { get; set; }
     }
 }

@@ -56,11 +56,12 @@ namespace BL.EventServices
                 SqlParameter prm8 = objSDP.CreateInitializedParameter("@CreateDateTime", DbType.DateTime, objEntity.CreatedDateTime);
                 SqlParameter prm9 = objSDP.CreateInitializedParameter("@UpdatedDateTime", DbType.DateTime, objEntity.UpdatedDateTime);
                 SqlParameter prm10 = objSDP.CreateInitializedParameter("@AdminId", DbType.String, objEntity.AdminId);
+                SqlParameter prm11 = objSDP.CreateInitializedParameter("@Publish", DbType.String, objEntity.Publish);
 
 
 
 
-                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7, prm8, prm9, prm10 };
+                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7, prm8, prm9, prm10,prm11 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
                 if (objEntity.Flag == "INSERT" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
@@ -68,13 +69,20 @@ namespace BL.EventServices
                     objSerializeResponse.ID = Convert.ToInt16(ds.Tables[0].Rows[0]["StatusCode"]);
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["ResponseMessage"]);
                 }
+                else if (objEntity.Flag == "UPDATE" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    objSerializeResponse.ID = Convert.ToInt16(ds.Tables[0].Rows[0]["StatusCode"]);
+                    objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["ResponseMessage"]);
+                }
                 else if (objEntity.Flag == "GETALL" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0 && ds.Tables[0].Columns.Count != 2)
                 {
                     objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EVENTINFO>(ds.Tables[0]);
-                    foreach(EVENTINFO e  in objSerializeResponse.ArrayOfResponse ){
-                        byte[] imageArray = System.IO.File.ReadAllBytes(e.EventImgPath);
+                    
+                    for(int i=0;i< objSerializeResponse.ArrayOfResponse.Count; i++)
+                    {
+                        byte[] imageArray = System.IO.File.ReadAllBytes(objSerializeResponse.ArrayOfResponse[i].EventImgPath);
                         string base64ImageRepresentation = Convert.ToBase64String(imageArray);
-                        e.EventImgPath=base64ImageRepresentation;
+                        objSerializeResponse.ArrayOfResponse[i].EventImgPath = base64ImageRepresentation;
                     }
                     objSerializeResponse.Message = "200|Data Found";
                 }
@@ -84,6 +92,26 @@ namespace BL.EventServices
                     objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["ResponseMessage"]);
                 }
                 else if (objEntity.Flag == "GETALL" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count == 0)
+                {
+                    objSerializeResponse.Message = "400|No Data Found";
+                }
+                else if (objEntity.Flag == "NOTPUBLISHEVENTS" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0 && ds.Tables[0].Columns.Count != 2)
+                {
+                    objSerializeResponse.ArrayOfResponse = bl.ListConvertDataTable<EVENTINFO>(ds.Tables[0]);
+                    foreach (EVENTINFO e in objSerializeResponse.ArrayOfResponse)
+                    {
+                        byte[] imageArray = System.IO.File.ReadAllBytes(e.EventImgPath);
+                        string base64ImageRepresentation = Convert.ToBase64String(imageArray);
+                        e.EventImgPath = base64ImageRepresentation;
+                    }
+                    objSerializeResponse.Message = "200|Data Found";
+                }
+                else if (objEntity.Flag == "NOTPUBLISHEVENTS" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0 && ds.Tables[0].Columns.Count == 2)
+                {
+                    objSerializeResponse.ID = Convert.ToInt16(ds.Tables[0].Rows[0]["StatusCode"]);
+                    objSerializeResponse.Message = Convert.ToString(ds.Tables[0].Rows[0]["ResponseMessage"]);
+                }
+                else if (objEntity.Flag == "NOTPUBLISHEVENTS" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count == 0)
                 {
                     objSerializeResponse.Message = "400|No Data Found";
                 }
